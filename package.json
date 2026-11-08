@@ -1,0 +1,36 @@
+{
+  "name": "rascruce-ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build && vite build --config vite.content.config.js",
+    "test": "node --test \"extension/src/shared/**/*.test.js\" \"tests/**/*.test.js\"",
+    "lint": "eslint .",
+    "api": "node scripts/dev-api.js",
+    "demo-site": "vite demo-site --port 5174 --strictPort",
+    "eval": "node tests/eval/run.js",
+    "rehearsal": "node scripts/rehearsal.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "@tailwindcss/vite": "^4.3.4",
+    "lucide-react": "^1.69.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.14.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "linkedom": "^0.18.15",
+    "shadcn": "^4.23.0",
+    "vite": "^8.3.6"
+  }
+}

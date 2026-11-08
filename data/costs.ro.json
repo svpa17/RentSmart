@@ -1,0 +1,16 @@
+{
+  "descriere": "Intervale de referință pentru estimările prudente din True Cost (planul, §5.2). Motorul folosește întotdeauna capătul superior (max). Comisionul de agenție nepomenit în anunț este fix 50% din chirie (DEFAULT_COMMISSION_PERCENT). Valorile sunt estimări din presă, nu date oficiale: „verificat” rămâne false până când un om confirmă sursele.",
+  "actualizatLa": "2026-11-07",
+  "utilitatiLunareRON": {
+    "vara": { "min": 250, "max": 550 },
+    "iarna": { "min": 500, "max": 900 }
+  },
+  "garantieLuniChirie": { "min": 1, "max": 2 },
+  "verificat": false,
+  "surse": [
+    "Întreținere + utilități, apartament 2 camere în orașele mari: ~400–550 lei vara, ~650–900 lei iarna; garsonieră ~350–450 lei — Capital.ro, „Întreținerea la bloc. Cât vor plăti românii cu garsonieră sau apartament în 2026” — https://www.capital.ro/intretinerea-la-bloc-cat-vor-plati-romanii-cu-garsoniera-sau-apartament-in-2026-in-romania-si-alte-tari-ue.html",
+    "Vara ~250–450 lei fără servicii speciale; iarna 600–900 lei cu încălzirea — Puterea.ro, „Luxul de a locui la bloc nou. Întreținerea poate ajunge la 900 de lei” — https://www.puterea.ro/?p=579934",
+    "Garanție: în 81% din cazuri egală cu o chirie lunară — Economedia.ro — https://economedia.ro/peste-jumatate-dintre-proprietarii-romani-nu-ȋsi-declara-veniturile-din-chirii.html",
+    "Comision de agenție: când anunțul nu îl precizează, aplicația îl estimează la 50% din chirie (în practică 50–100% din prima chirie) — SpotMedia.ro, „Cât costă, de fapt, să închiriezi un apartament în 2026? Taxe, garanții și comisioane ascunse” — https://spotmedia.ro/stiri/casa-si-gradina/cat-costa-de-fapt-sa-inchiriezi-un-apartament-in-2026-taxe-garantii-si-comisioane-ascunse"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "versiune": 1,
+  "descriere": "Banca de întrebări pentru proprietar, scrisă de om (planul, §2.4). Fiecare câmp „De întrebat” primește întrebarea de mai jos; câmpurile din același grup primesc o singură întrebare.",
+  "intrebari": {
+    "chirie": {
+      "lipsa": "Care este chiria lunară și în ce monedă se plătește (lei sau euro)?",
+      "neclar": "Puteți confirma suma exactă a chiriei lunare și moneda în care se plătește?"
+    },
+    "intretinereVara": {
+      "grup": "intretinere",
+      "lipsa": "Cât costă în medie pe lună întreținerea și utilitățile (curent, gaz, apă), separat vara și iarna?",
+      "neclar": "Puteți estima mai exact costul lunar al întreținerii și utilităților, vara și iarna?"
+    },
+    "intretinereIarna": {
+      "grup": "intretinere",
+      "lipsa": "Cât costă în medie pe lună întreținerea și utilitățile (curent, gaz, apă), separat vara și iarna?",
+      "neclar": "Puteți estima mai exact costul lunar al întreținerii și utilităților, vara și iarna?"
+    },
+    "utilitatiIncluse": {
+      "lipsa": "Sunt incluse utilitățile în chirie, sau se plătesc separat?",
+      "neclar": "Ce anume este inclus în chirie și ce se plătește separat?"
+    },
+    "garantie": {
+      "lipsa": "Ce garanție se cere la semnarea contractului și în ce condiții se returnează?",
+      "neclar": "Puteți confirma suma exactă a garanției și condițiile în care se returnează?"
+    },
+    "comision": {
+      "lipsa": "Se plătește comision de agenție? Dacă da, cât este?",
+      "neclar": "Puteți confirma dacă există comision și cât este exact?"
+    },
+    "durataContractLuni": {
+      "lipsa": "Pe ce perioadă minimă se încheie contractul și care este preavizul la plecare?",
+      "neclar": "Puteți confirma durata minimă a contractului și preavizul?"
+    },
+    "reparatii": {
+      "lipsa": "Cine suportă reparațiile (de exemplu centrala, instalațiile, electrocasnicele)?",
+      "neclar": "Ce reparații suportă proprietarul și ce reparații rămân în grija chiriașului?"
+    },
+    "mobilat": {
+      "lipsa": "Apartamentul este mobilat și utilat? Ce electrocasnice sunt incluse?",
+      "neclar": "Ce mobilier și ce electrocasnice rămân în apartament?"
+    },
+    "suprafataMp": {
+      "lipsa": "Care este suprafața utilă a apartamentului?",
+      "neclar": "Puteți confirma suprafața utilă exactă a apartamentului?"
+    },
+    "localitate": {
+      "lipsa": "În ce localitate și zonă se află apartamentul?",
+      "neclar": "Puteți confirma zona exactă în care se află apartamentul?"
+    }
+  },
+  "sablonMesaj": {
+    "salut": "Bună ziua!",
+    "introducere": "Sunt interesat(ă) de apartamentul din anunț și aș avea câteva întrebări înainte de o vizionare:",
+    "incheiere": "Vă mulțumesc! Aștept cu interes răspunsul dumneavoastră."
+  }
+}

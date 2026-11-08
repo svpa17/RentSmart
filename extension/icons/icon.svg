@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- RentSmart: o cheie pe fundal albastru Apple (#007AFF), aceeași ca logo-ul din interfață. -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="#007AFF"/>
+  <g fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="47" cy="81" r="17"/>
+    <path d="M59 69 L94 34"/>
+    <path d="M84 44 L95 55"/>
+    <path d="M76 52 L84 60"/>
+  </g>
+</svg>
