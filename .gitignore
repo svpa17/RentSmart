@@ -31,7 +31,7 @@ dist-ssr
 # Environment variables and secrets
 .env
 .env.*
-!.env.example
+.env.example
 
 # Local AI development tools
 .claude/skills/
