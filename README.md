@@ -1,4 +1,4 @@
-# RĂSCRUCE AI
+  # RentSmart
 
 > **Know before you commit.** Extensie Chrome (MV3) care arată costul real al unei chirii, înainte să semnezi.
 
